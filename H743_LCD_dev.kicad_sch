@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 70094798-b7e4-48a4-a512-b8f48be18f9f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 58.42 71.12) (size 45.72 46.355) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1558eff6-44a0-4949-bd5f-4341771b33ca)
+    (property "Sheetname" "MCU" (at 58.42 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "STM32H743IIK6.kicad_sch" (at 58.42 118.0596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H743_LCD_dev"
+        (path "/70094798-b7e4-48a4-a512-b8f48be18f9f" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 170.815 78.74) (size 50.165 36.195) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 99abf84f-89dd-4209-b43f-cdbcbe391aaa)
+    (property "Sheetname" "LCD" (at 170.815 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Display.kicad_sch" (at 170.815 115.5196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H743_LCD_dev"
+        (path "/70094798-b7e4-48a4-a512-b8f48be18f9f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 71.12) (size 45.72 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9bd964eb-5525-47c4-8570-31e45a5f56ec)
+    (property "Sheetname" "MEMORY" (at 111.76 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SDRAM.kicad_sch" (at 111.76 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H743_LCD_dev"
+        (path "/70094798-b7e4-48a4-a512-b8f48be18f9f" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

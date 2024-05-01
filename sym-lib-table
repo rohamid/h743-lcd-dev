@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IS42S32800J-6TL")(type "KiCad")(uri "${KIPRJMOD}/lib/IS42S32800J-6TL/IS42S32800J-6TL.kicad_sym")(options "")(descr ""))
+  (lib (name "FPC_40P_double_contact")(type "KiCad")(uri "${KIPRJMOD}/lib/FPC_40P_double_contact.kicad_sym")(options "")(descr ""))
+  (lib (name "FPC_10P_double_contact")(type "KiCad")(uri "${KIPRJMOD}/lib/FPC_10P_double_contact.kicad_sym")(options "")(descr ""))
+  (lib (name "MT9284")(type "KiCad")(uri "${KIPRJMOD}/lib/MT9284.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS61169")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61169.kicad_sym")(options "")(descr ""))
+)
