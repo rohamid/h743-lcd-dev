@@ -8662,6 +8662,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 203.2) (xy 322.58 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2c69ec-9099-4326-9778-40340750eb3a")
+	)
+	(wire
+		(pts
 			(xy 137.16 27.94) (xy 147.32 27.94)
 		)
 		(stroke
@@ -12541,7 +12551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 116.84 33.02 0)
 			(effects
 				(font
@@ -13315,7 +13325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 66.04 33.02 0)
 			(effects
 				(font
@@ -13656,7 +13666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 33.02 0)
 			(effects
 				(font
@@ -13726,7 +13736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 76.2 33.02 0)
 			(effects
 				(font
@@ -14000,7 +14010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -14136,7 +14146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -14407,7 +14417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.72 33.02 0)
 			(effects
 				(font
@@ -14913,6 +14923,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 322.58 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a614092b-9510-46a9-8e4d-3e332a0e8bd2")
+		(property "Reference" "#PWR066"
+			(at 322.58 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 322.58 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 322.58 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd378665-439e-4f6b-af87-fc7bf7fa27bd")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/1558eff6-44a0-4949-bd5f-4341771b33ca"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 165.1 238.76 90)
 		(mirror x)
@@ -15074,7 +15150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 86.36 33.02 0)
 			(effects
 				(font
@@ -15281,7 +15357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.56 33.02 0)
 			(effects
 				(font
@@ -15351,7 +15427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -15489,7 +15565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 137.16 33.02 0)
 			(effects
 				(font
@@ -15693,7 +15769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -15830,7 +15906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -15967,7 +16043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 25.4 33.02 0)
 			(effects
 				(font

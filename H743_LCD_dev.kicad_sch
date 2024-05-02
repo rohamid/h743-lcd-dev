@@ -1125,6 +1125,84 @@
 		)
 	)
 	(sheet
+		(at 58.42 111.76)
+		(size 29.21 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7db45bec-c9d4-4a8f-b190-415f0c2fea62")
+		(property "Sheetname" "Audio"
+			(at 58.42 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX98357.kicad_sch"
+			(at 58.42 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2S_SD_MODE" input
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26669d7e-1638-4273-b540-b6bc56cb6f71")
+		)
+		(pin "I2S_WS" input
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df83a50b-1ff4-4d41-ba70-3b7264b31da9")
+		)
+		(pin "I2S_SDO" input
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd46039c-7b9e-4c11-8a91-53b74e7e8463")
+		)
+		(pin "I2S_CK" input
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31929602-fd4f-46e4-bdef-cc777ecabe04")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 26.67)
 		(size 29.21 46.355)
 		(fields_autoplaced yes)
