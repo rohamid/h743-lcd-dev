@@ -1,65 +1,1706 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 70094798-b7e4-48a4-a512-b8f48be18f9f)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 58.42 71.12) (size 45.72 46.355) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1558eff6-44a0-4949-bd5f-4341771b33ca)
-    (property "Sheetname" "MCU" (at 58.42 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "STM32H743IIK6.kicad_sch" (at 58.42 118.0596 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "H743_LCD_dev"
-        (path "/70094798-b7e4-48a4-a512-b8f48be18f9f" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 170.815 78.74) (size 50.165 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 99abf84f-89dd-4209-b43f-cdbcbe391aaa)
-    (property "Sheetname" "LCD" (at 170.815 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Display.kicad_sch" (at 170.815 115.5196 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "H743_LCD_dev"
-        (path "/70094798-b7e4-48a4-a512-b8f48be18f9f" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 111.76 71.12) (size 45.72 43.18) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9bd964eb-5525-47c4-8570-31e45a5f56ec)
-    (property "Sheetname" "MEMORY" (at 111.76 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "SDRAM.kicad_sch" (at 111.76 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "H743_LCD_dev"
-        (path "/70094798-b7e4-48a4-a512-b8f48be18f9f" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "70094798-b7e4-48a4-a512-b8f48be18f9f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 142.24 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4175e2f4-a45b-41ac-96a0-5d2a04af3a8f")
+	)
+	(junction
+		(at 142.24 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a024241d-3556-487b-865e-5aaf70fb1094")
+	)
+	(junction
+		(at 142.24 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b58d0b6e-14f0-45c5-be97-7795b9d3bbb7")
+	)
+	(wire
+		(pts
+			(xy 142.24 160.02) (xy 142.24 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06355162-2ccc-4d83-bbf5-31c5137f580d")
+	)
+	(wire
+		(pts
+			(xy 154.94 34.29) (xy 172.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cea0564-0964-4092-9912-c272e00eb984")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 172.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df21d16-fd1f-420a-abf8-10ad36f17e6d")
+	)
+	(wire
+		(pts
+			(xy 154.94 46.99) (xy 172.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a82d05-c02b-464c-9604-2a09f524e50a")
+	)
+	(wire
+		(pts
+			(xy 154.94 31.75) (xy 172.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f915de-b6b6-4e52-b814-079fea5efb8f")
+	)
+	(polyline
+		(pts
+			(xy 183.515 92.71) (xy 202.565 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a5a8c9-d9cd-4fb9-81da-613b7c361ef7")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b79f14-a912-4958-a39c-3707771428ad")
+	)
+	(polyline
+		(pts
+			(xy 182.88 111.76) (xy 202.565 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31812d3c-8218-4b64-98bc-21c816fd9024")
+	)
+	(polyline
+		(pts
+			(xy 202.565 73.66) (xy 202.565 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f890a3-4eb3-4112-ad18-9c6615e18fe0")
+	)
+	(polyline
+		(pts
+			(xy 179.07 133.35) (xy 202.565 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388ef9e0-1c28-45cc-b2cc-a5a624e73daa")
+	)
+	(polyline
+		(pts
+			(xy 182.88 73.66) (xy 202.565 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398788a7-bae4-4437-8050-30d0e12bf1c3")
+	)
+	(wire
+		(pts
+			(xy 154.94 49.53) (xy 172.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b45264e-d9c6-4543-b0a6-84565c4ce8d9")
+	)
+	(polyline
+		(pts
+			(xy 184.15 105.41) (xy 202.565 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401a10cb-198c-4241-96ac-987e9dd17cd8")
+	)
+	(wire
+		(pts
+			(xy 142.24 175.26) (xy 144.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4133098b-1c11-46c8-82ed-788658501c3c")
+	)
+	(polyline
+		(pts
+			(xy 202.565 111.76) (xy 202.565 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47330a14-0704-4fc6-a872-05443ca50dcc")
+	)
+	(wire
+		(pts
+			(xy 142.24 170.18) (xy 142.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be6f896-549d-4e84-b9b9-114ae2b85c39")
+	)
+	(polyline
+		(pts
+			(xy 182.88 86.36) (xy 202.565 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb1dd76-2798-4086-b0b0-7fce41f679c1")
+	)
+	(wire
+		(pts
+			(xy 144.78 160.02) (xy 142.24 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cba01e3-a5d3-42a7-adf9-d3ef2d237ea2")
+	)
+	(polyline
+		(pts
+			(xy 202.565 31.75) (xy 202.565 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8f8fcc-5df7-481d-815b-55a0be705030")
+	)
+	(polyline
+		(pts
+			(xy 184.15 127) (xy 202.565 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7169ea96-1586-4fef-a6b5-73862d6641ef")
+	)
+	(wire
+		(pts
+			(xy 154.94 64.77) (xy 172.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985e6d82-d45e-4608-8129-e81b47f7ae07")
+	)
+	(bus
+		(pts
+			(xy 154.94 41.91) (xy 172.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d079b0d-059d-47be-9acc-a12efd811875")
+	)
+	(polyline
+		(pts
+			(xy 180.34 31.75) (xy 202.565 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0be6cc3-9c85-4108-b3f8-06be3ea4f124")
+	)
+	(bus
+		(pts
+			(xy 154.94 39.37) (xy 172.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac3144c-d7be-4001-8f56-6e9eea3af091")
+	)
+	(polyline
+		(pts
+			(xy 179.07 135.89) (xy 202.565 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6eaced0-0ecd-4c30-94a8-6b8ed3994e5d")
+	)
+	(polyline
+		(pts
+			(xy 180.34 64.77) (xy 202.565 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb418f05-de3c-4ed6-8345-abef1e499f22")
+	)
+	(wire
+		(pts
+			(xy 154.94 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea60efd-db46-4feb-a68f-cf825c3c8551")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 144.78 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb06b7f-52a4-426a-b09f-6cb6d26ace18")
+	)
+	(polyline
+		(pts
+			(xy 202.565 92.71) (xy 202.565 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f28544-0a77-41a8-be1d-bc9806eeee48")
+	)
+	(wire
+		(pts
+			(xy 142.24 170.18) (xy 144.78 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ac658b-2511-42bc-91af-95bb9256a4f0")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db88b7f9-ae3a-448a-971e-79b20fbe592c")
+	)
+	(wire
+		(pts
+			(xy 154.94 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8266728-6257-4332-9c59-72a9bbba69b2")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 142.24 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca7c626-30fc-49d3-8210-ed387edc861b")
+	)
+	(polyline
+		(pts
+			(xy 202.565 133.35) (xy 202.565 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f3885c-11c0-417f-bf63-453ef937d97c")
+	)
+	(wire
+		(pts
+			(xy 142.24 175.26) (xy 142.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe05fa81-824a-419e-b6b2-10ce2a3d52db")
+	)
+	(text "SD CARD"
+		(exclude_from_sim no)
+		(at 191.77 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "056f7f88-5341-4cae-a01b-2f277f0fdf35")
+	)
+	(text "NOR FLASH"
+		(exclude_from_sim no)
+		(at 192.278 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "42ba4c5b-fed6-4024-91ff-634de35933ef")
+	)
+	(text "NAND FLASH"
+		(exclude_from_sim no)
+		(at 192.532 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ce42dc4b-5790-495b-bc79-1309483090b8")
+	)
+	(text "SDRAM"
+		(exclude_from_sim no)
+		(at 191.77 33.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fa39456c-3974-4a14-86c9-fab6c7e0c4f7")
+	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 191.262 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fe573967-a800-40c0-9523-8a95d4749206")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 147.32 170.18 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29a2d4e6-16ab-4027-824f-55f226132f46")
+		(property "Reference" "H3"
+			(at 151.13 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04bf4ab0-06c7-41e2-b490-849f219c6c97")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c1236d3-659a-4506-b1d3-bf73a4dd04dd")
+		(property "Reference" "#PWR057"
+			(at 142.24 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb2a102-d5f0-4835-823a-a5002db28f82")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 147.32 175.26 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b91a233-9b8b-4d27-af90-afc96b97f92a")
+		(property "Reference" "H4"
+			(at 151.13 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfddb428-0741-48b1-8848-f6112b5111ea")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 147.32 165.1 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "749ca8ff-0f42-434c-8d1a-d4db26af6b86")
+		(property "Reference" "H2"
+			(at 151.13 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2208dcc-2672-48e5-ae81-fe513026face")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 147.32 160.02 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "769eb2ba-00c4-4432-bc3b-11c95a3a0939")
+		(property "Reference" "H1"
+			(at 151.13 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ce115b-d55c-4aa9-b0b8-df9e7812d134")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 26.67)
+		(size 50.8 113.03)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1558eff6-44a0-4949-bd5f-4341771b33ca")
+		(property "Sheetname" "MCU"
+			(at 104.14 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32H743IIK6.kicad_sch"
+			(at 104.14 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..11]" output
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a669539c-7d0f-484e-853f-eb20837fb0f5")
+		)
+		(pin "DQ[0..15]" output
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cd53d38-1077-406a-92ae-7fc7a31f0b57")
+		)
+		(pin "~{SDRAM_RAS}" output
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39c24476-741c-4358-8aa5-f7b7d67f380e")
+		)
+		(pin "BA1" output
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3774e9a9-3f37-4c1c-9c0a-3d6e85e1edcf")
+		)
+		(pin "BA0" output
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e6bb9b0-fe08-4dc7-a910-681c01daa027")
+		)
+		(pin "SDRAM_CLK" output
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3091e5a6-4ee7-45ea-98e8-04722140b9c3")
+		)
+		(pin "SDRAM_UDQM" output
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5ae32fa-4c1f-4a3b-a0d4-e4ee971c9d1a")
+		)
+		(pin "SDRAM_CKE" output
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fbd9b37-d58e-48fc-9cc6-72553b97f3a0")
+		)
+		(pin "SDRAM_LDQM" output
+			(at 154.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9ab0e7b-1270-4286-8fcb-d15be4b5a767")
+		)
+		(pin "~{SDRAM_WE}" output
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a38d2a5-b7fe-4ae8-872f-cda4148088aa")
+		)
+		(pin "~{SDRAM_CS}" output
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46bfedc9-40b0-49ab-b1e4-f61b13fbcb31")
+		)
+		(pin "~{SDRAM_CAS}" output
+			(at 154.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7d624dd-1c19-49ff-bd93-ec9566691aaf")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 26.67)
+		(size 29.21 46.355)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99abf84f-89dd-4209-b43f-cdbcbe391aaa")
+		(property "Sheetname" "LCD"
+			(at 58.42 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 58.42 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LCD_DE" input
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e0840d7-28bf-4a48-94fb-78b8a9650452")
+		)
+		(pin "LCD_CLK" input
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac4ef8f9-f92e-4dd4-bdf5-d7ad9cdacafb")
+		)
+		(pin "LCD_DISP" input
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "130fbb09-6a97-41d0-8c52-57074053ebbf")
+		)
+		(pin "HSYNC" input
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f631599-074f-43b6-97a9-1c23ff9616c9")
+		)
+		(pin "VSYNC" input
+			(at 87.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc9b1482-9f36-4841-a4d4-51daeddfb683")
+		)
+		(pin "LCD_R[0..7]" input
+			(at 87.63 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f3a9f3a-7000-4560-83b3-db2a56795977")
+		)
+		(pin "LCD_G[0..7]" input
+			(at 87.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80b07efc-2af3-4680-8bc9-702722e7b6f8")
+		)
+		(pin "~{LCD_INT}" input
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6aada96b-a10d-44b3-8cae-89aacbb292b9")
+		)
+		(pin "LCD_WAKE" input
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1400f42d-fc5a-4bcd-8949-fb22ebae0182")
+		)
+		(pin "LCD_SDA" input
+			(at 87.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0cb136a-dc53-4835-8065-2714144a1666")
+		)
+		(pin "LCD_SCL" input
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60ab7aa4-12a4-4cce-8e0d-39bae73e8938")
+		)
+		(pin "~{LCD_RST}" input
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "264b726a-9240-4d48-b35f-9689c787c13f")
+		)
+		(pin "LCD_B[0..7]" input
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b495750-b96b-4dde-b0c4-6ec8578b3a89")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 26.67)
+		(size 33.02 113.03)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9bd964eb-5525-47c4-8570-31e45a5f56ec")
+		(property "Sheetname" "MEMORY"
+			(at 172.72 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDRAM.kicad_sch"
+			(at 172.72 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DQ[0..15]" bidirectional
+			(at 172.72 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "778ba791-39fa-4902-8ae6-84da73205a42")
+		)
+		(pin "CLK" input
+			(at 172.72 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ceb6e265-0547-4b4f-8b10-78a61cf9c67f")
+		)
+		(pin "UDQM" input
+			(at 172.72 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f4dce8b-4edf-4542-bedf-ff8e5c0090b9")
+		)
+		(pin "~{WE}" input
+			(at 172.72 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcf0fbc1-4013-4a97-a220-5f9290e99d97")
+		)
+		(pin "LDQM" input
+			(at 172.72 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7051d209-3076-4442-b3cc-c1ec62a83215")
+		)
+		(pin "~{CAS}" input
+			(at 172.72 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c2e058d-23bf-48e4-8d27-a930464b38f9")
+		)
+		(pin "~{RAS}" input
+			(at 172.72 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c97093f-cff2-49f0-a414-06dd89a27523")
+		)
+		(pin "~{CS}" input
+			(at 172.72 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61c127ec-7eff-4ca1-a73d-8a5d8a70cff6")
+		)
+		(pin "CKE" input
+			(at 172.72 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "675086bd-363e-4862-b4e0-a0b72be8136e")
+		)
+		(pin "A[0..11]" input
+			(at 172.72 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b068ac84-9c5f-4fd0-b46d-32bbc4ff1d3e")
+		)
+		(pin "BA0" input
+			(at 172.72 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c20e32d-7b1e-4bbb-b82a-59aa3bfc6974")
+		)
+		(pin "BA1" input
+			(at 172.72 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "686bd5ee-6324-47d0-a6f0-5ad275b67e63")
+		)
+		(pin "SCL" input
+			(at 172.72 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85016cb5-84d3-4c84-862d-5b7d68978df6")
+		)
+		(pin "SDA" bidirectional
+			(at 172.72 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20996655-1aa4-4ad6-8305-37c1fd2043c2")
+		)
+		(pin "NAND_DO(IO1)" bidirectional
+			(at 172.72 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97c444ad-9b02-4794-a557-a422106adc50")
+		)
+		(pin "NAND_IO3" bidirectional
+			(at 172.72 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c8e88e3-b466-4478-b3d9-acded012ddb0")
+		)
+		(pin "NAND_DI(IO0)" bidirectional
+			(at 172.72 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cba8b19f-80cc-48c1-983e-5f969aa6cd88")
+		)
+		(pin "NAND_CLK" input
+			(at 172.72 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fd8825d-8b9b-4e62-9412-59ce1e57bb66")
+		)
+		(pin "NAND_IO2" bidirectional
+			(at 172.72 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97dd43e5-446a-4e23-acb1-388d2a1079f3")
+		)
+		(pin "~{NAND_CS}" input
+			(at 172.72 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e95eed7-92d7-4a32-aa26-e65bf8b539a5")
+		)
+		(pin "NOR_CLK" input
+			(at 172.72 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d1bf155b-18f0-4f3d-a3fd-8b2014ba4a54")
+		)
+		(pin "NOR_IO2" bidirectional
+			(at 172.72 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c733a1a-a097-4d01-b0ab-ad5b424ccecb")
+		)
+		(pin "NOR_DO(IO1)" bidirectional
+			(at 172.72 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07fd3712-164c-4e5b-a3c9-dbd8d0bb9624")
+		)
+		(pin "NOR_DI(IO0)" bidirectional
+			(at 172.72 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0838fa40-7ed1-401a-8c32-0158443c6ac9")
+		)
+		(pin "NOR_IO3" bidirectional
+			(at 172.72 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cea2070-4a89-486d-8b38-c5ca74489c65")
+		)
+		(pin "~{NOR_CS}" input
+			(at 172.72 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d9402dd-faed-48d4-9c95-d906217e7c12")
+		)
+		(pin "SD_DAT3{slash}CD" bidirectional
+			(at 172.72 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a41bcee5-57d0-4f15-891f-8132ef696659")
+		)
+		(pin "SD_CMD" input
+			(at 172.72 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bdeebeb-b456-443a-92ce-86db84d781a9")
+		)
+		(pin "SD_DAT1" bidirectional
+			(at 172.72 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bca93ff0-4c64-4680-9b33-44d24751bbc5")
+		)
+		(pin "SD_CLK" input
+			(at 172.72 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ebc55e6b-7b5d-469f-a516-2c925280228b")
+		)
+		(pin "SD_DAT0" bidirectional
+			(at 172.72 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4b28358-9de9-4ba5-949e-5627e77575df")
+		)
+		(pin "SD_DAT2" bidirectional
+			(at 172.72 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae53ca2b-8ccf-4258-9821-3731181e47da")
+		)
+		(pin "SD_DET_B" input
+			(at 172.72 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f028af1f-6382-4ffc-999b-a7815d102dc4")
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 80.645)
+		(size 29.21 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf3c6c38-1b0f-4722-9440-d8d8f6f0e2e1")
+		(property "Sheetname" "IO"
+			(at 58.42 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input-outputs.kicad_sch"
+			(at 58.42 102.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "H743_LCD_dev"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

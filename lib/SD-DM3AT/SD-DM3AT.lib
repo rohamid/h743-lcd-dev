@@ -1,0 +1,83 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Hirose DM3AT-SF-PEJM5(40)
+#
+DEF DM3AT-SF-PEJM540 J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN 
+F1 "DM3AT-SF-PEJM5(40)" 0 400 50 H V L CNN 
+F2 "Hirose-DM3AT-SF-PEJM540-*" 0 500 50 H I L CNN 
+F3 "https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en" 0 600 50 H I L CNN 
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Gold" 0 900 50 H I L CNN "contact material"
+F7 "0.5A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "Memory Connectors" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN MICRO SD R/A PUSH-PUSH SMD" 0 1400 50 H I L CNN "digikey description"
+F12 "DM3AT-SF-PEJM5(40)-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "1.83mm" 0 1600 50 H I L CNN "height"
+F14 "yes" 0 1700 50 H I L CNN "is connector"
+F15 "yes" 0 1800 50 H I L CNN "is female"
+F16 "Yes" 0 1900 50 H I L CNN "lead free"
+F17 "ff0988e620da0905" 0 2000 50 H I L CNN "library id"
+F18 "Hirose" 0 2100 50 H I L CNN "manufacturer"
+F19 "Memory Card Connectors MICRO SD CD CONN STD SMT PUSHPUSH" 0 2200 50 H I L CNN "mouser description"
+F20 "798-DM3AT-SF-PEJM540" 0 2300 50 H I L CNN "mouser part number"
+F21 "8" 0 2400 50 H I L CNN "number of contacts"
+F22 "CONN_MEMORY_13MM85_15MM95" 0 2500 50 H I L CNN "package"
+F23 "1.1mm" 0 2600 50 H I L CNN "pitch"
+F24 "Yes" 0 2700 50 H I L CNN "rohs"
+F25 "true" 0 2800 50 H I L CNN "shielding"
+F26 "+85°C" 0 2900 50 H I L CNN "temperature range high"
+F27 "-25°C" 0 3000 50 H I L CNN "temperature range low"
+F28 "125V" 0 3100 50 H I L CNN "voltage rating"
+DRAW
+X DAT2 1 -100 0 100 L 40 40 1 1 B 
+X CD/DAT3 2 -100 -200 100 L 40 40 1 1 B 
+X CMD 3 -100 -400 100 L 40 40 1 1 B 
+X VDD 4 -100 -600 100 L 40 40 1 1 W 
+X CLK 5 -100 -800 100 L 40 40 1 1 I 
+X VSS 6 -100 -1000 100 L 40 40 1 1 P 
+X DAT0 7 -100 -1200 100 L 40 40 1 1 O 
+X DAT1 8 -100 -1400 100 L 40 40 1 1 O 
+X B 9 -100 -1700 100 L 40 40 1 1 I 
+X A 10 -100 -1900 100 L 40 40 1 1 I 
+X MNT_1 11 -100 -2200 100 L 40 40 1 1 P 
+X MNT_2 12 -100 -2400 100 L 40 40 1 1 P 
+X MNT_3 13 -100 -2600 100 L 40 40 1 1 P 
+X MNT_4 14 -100 -2800 100 L 40 40 1 1 P 
+S -800 200 -200 -2900 1 1 0 f
+C -500 0 30 1 1 0 N
+P 2 1 1 0 -470 0 -200 0 N
+C -500 -200 30 1 1 0 N
+P 2 1 1 0 -470 -200 -200 -200 N
+C -500 -400 30 1 1 0 N
+P 2 1 1 0 -470 -400 -200 -400 N
+C -500 -600 30 1 1 0 N
+P 2 1 1 0 -470 -600 -200 -600 N
+C -500 -800 30 1 1 0 N
+P 2 1 1 0 -470 -800 -200 -800 N
+C -500 -1000 30 1 1 0 N
+P 2 1 1 0 -470 -1000 -200 -1000 N
+C -500 -1200 30 1 1 0 N
+P 2 1 1 0 -470 -1200 -200 -1200 N
+C -500 -1400 30 1 1 0 N
+P 2 1 1 0 -470 -1400 -200 -1400 N
+C -500 -1700 30 1 1 0 N
+P 2 1 1 0 -470 -1700 -200 -1700 N
+C -500 -1900 30 1 1 0 N
+P 2 1 1 0 -470 -1900 -200 -1900 N
+C -500 -2200 30 1 1 0 N
+P 2 1 1 0 -470 -2200 -200 -2200 N
+C -500 -2400 30 1 1 0 N
+P 2 1 1 0 -470 -2400 -200 -2400 N
+C -500 -2600 30 1 1 0 N
+P 2 1 1 0 -470 -2600 -200 -2600 N
+C -500 -2800 30 1 1 0 N
+P 2 1 1 0 -470 -2800 -200 -2800 N
+ENDDRAW
+ENDDEF
+#
+# End Library
