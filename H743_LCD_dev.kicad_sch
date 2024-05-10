@@ -444,13 +444,13 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 31.75) (xy 202.565 31.75)
+			(xy 186.055 31.75) (xy 202.565 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0be6cc3-9c85-4108-b3f8-06be3ea4f124")
+		(uuid "a05a1d3d-e3ee-416e-87d1-25e2f89e4283")
 	)
 	(bus
 		(pts
@@ -996,26 +996,6 @@
 				(justify left top)
 			)
 		)
-		(pin "A[0..11]" output
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a669539c-7d0f-484e-853f-eb20837fb0f5")
-		)
-		(pin "DQ[0..15]" output
-			(at 154.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3cd53d38-1077-406a-92ae-7fc7a31f0b57")
-		)
 		(pin "~{SDRAM_RAS}" output
 			(at 154.94 64.77 0)
 			(effects
@@ -1025,26 +1005,6 @@
 				(justify right)
 			)
 			(uuid "39c24476-741c-4358-8aa5-f7b7d67f380e")
-		)
-		(pin "BA1" output
-			(at 154.94 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3774e9a9-3f37-4c1c-9c0a-3d6e85e1edcf")
-		)
-		(pin "BA0" output
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3e6bb9b0-fe08-4dc7-a910-681c01daa027")
 		)
 		(pin "SDRAM_CLK" output
 			(at 154.94 52.07 0)
@@ -1115,6 +1075,46 @@
 				(justify right)
 			)
 			(uuid "b7d624dd-1c19-49ff-bd93-ec9566691aaf")
+		)
+		(pin "SDRAM_DQ[0..15]" bidirectional
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba8570f2-5532-4a05-9af2-2d34a179a6eb")
+		)
+		(pin "SDRAM_ADD[0..11]" output
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "605e9488-0464-4bd5-b93b-df56154445e6")
+		)
+		(pin "SDRAM_BA0" output
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99840fce-8199-4f94-8efd-2dbe81afd353")
+		)
+		(pin "SDRAM_BA1" output
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ee83e30-b60e-45dc-8a99-32c1e7ad62f1")
 		)
 		(instances
 			(project "H743_LCD_dev"
@@ -1400,126 +1400,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DQ[0..15]" bidirectional
-			(at 172.72 41.91 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "778ba791-39fa-4902-8ae6-84da73205a42")
-		)
-		(pin "CLK" input
-			(at 172.72 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ceb6e265-0547-4b4f-8b10-78a61cf9c67f")
-		)
-		(pin "UDQM" input
-			(at 172.72 57.15 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9f4dce8b-4edf-4542-bedf-ff8e5c0090b9")
-		)
-		(pin "~{WE}" input
-			(at 172.72 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fcf0fbc1-4013-4a97-a220-5f9290e99d97")
-		)
-		(pin "LDQM" input
-			(at 172.72 54.61 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7051d209-3076-4442-b3cc-c1ec62a83215")
-		)
-		(pin "~{CAS}" input
-			(at 172.72 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0c2e058d-23bf-48e4-8d27-a930464b38f9")
-		)
-		(pin "~{RAS}" input
-			(at 172.72 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3c97093f-cff2-49f0-a414-06dd89a27523")
-		)
-		(pin "~{CS}" input
-			(at 172.72 46.99 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "61c127ec-7eff-4ca1-a73d-8a5d8a70cff6")
-		)
-		(pin "CKE" input
-			(at 172.72 49.53 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "675086bd-363e-4862-b4e0-a0b72be8136e")
-		)
-		(pin "A[0..11]" input
-			(at 172.72 39.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b068ac84-9c5f-4fd0-b46d-32bbc4ff1d3e")
-		)
-		(pin "BA0" input
-			(at 172.72 31.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8c20e32d-7b1e-4bbb-b82a-59aa3bfc6974")
-		)
-		(pin "BA1" input
-			(at 172.72 34.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "686bd5ee-6324-47d0-a6f0-5ad275b67e63")
-		)
 		(pin "SCL" input
 			(at 172.72 133.35 180)
 			(effects
@@ -1729,6 +1609,126 @@
 				(justify left)
 			)
 			(uuid "f028af1f-6382-4ffc-999b-a7815d102dc4")
+		)
+		(pin "SDRAM_BA0" input
+			(at 172.72 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c613b21f-5d5d-424a-90d1-155b5a89ea75")
+		)
+		(pin "SDRAM_BA1" input
+			(at 172.72 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "695585bf-2b5d-475c-9a81-0e886b18696c")
+		)
+		(pin "SDRAM_DQ[0..15]" bidirectional
+			(at 172.72 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2551288f-d6bd-416c-b20c-b0e300804079")
+		)
+		(pin "SDRAM_ADD[0..11]" input
+			(at 172.72 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0eafd02-2c3f-4553-9c54-d31b3c709eb0")
+		)
+		(pin "SDRAM_CKE" input
+			(at 172.72 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36eb91a9-6d06-40f2-b3ff-bbe4bb175271")
+		)
+		(pin "~{SDRAM_CS}" input
+			(at 172.72 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d8e8ffa-4b87-47e1-ada7-5fb714454856")
+		)
+		(pin "~{SDRAM_RAS}" input
+			(at 172.72 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e32d81c7-165d-498c-889a-8df6e947af2d")
+		)
+		(pin "~{SDRAM_CAS}" input
+			(at 172.72 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "839d7c45-6ec3-45cf-82ad-e35f9b7cdf62")
+		)
+		(pin "SDRAM_CLK" input
+			(at 172.72 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a975455-164b-4dd7-969d-a917c296fe19")
+		)
+		(pin "SDRAM_LDQM" input
+			(at 172.72 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a6c782d-db51-452d-8fad-bb850332bfaf")
+		)
+		(pin "~{SDRAM_WE}" input
+			(at 172.72 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70cb1763-f5ec-4dd0-b370-cb4293053712")
+		)
+		(pin "SDRAM_UDQM" input
+			(at 172.72 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea3c1fda-72ab-4f39-b167-930a9fab1e2f")
 		)
 		(instances
 			(project "H743_LCD_dev"
