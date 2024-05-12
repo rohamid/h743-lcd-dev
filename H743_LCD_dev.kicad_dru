@@ -4,3 +4,18 @@
       (condition "A.NetClass == 'HIGH_SPEED'")
       (constraint length (min 67.8mm) (opt 68mm) (max 68.2mm))
       (constraint skew (max 0.1mm)))
+
+(rule "target length and skew"
+      (condition "A.NetClass == 'LTDC'")
+      (constraint length (min 49.8mm) (opt 50mm) (max 50.2mm))
+      (constraint skew (max 0.1mm)))
+
+(rule "target length and skew"
+      (condition "A.NetClass == 'SD_CARD'")
+      (constraint length (min 58.8mm) (opt 59mm) (max 59.2mm))
+      (constraint skew (max 0.1mm)))
+
+(rule "target length and skew"
+      (condition "A.NetClass == 'NOR_FLASH'")
+      (constraint length (min 30.8mm) (opt 31mm) (max 31.2mm))
+      (constraint skew (max 0.1mm)))
