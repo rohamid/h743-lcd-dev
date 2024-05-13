@@ -8,4 +8,5 @@
   (lib (name "SM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/SM04B-SRSS-TB_LF__SN_/SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "S4B-XH-SM4-TB_LF__SN_")(type "Legacy")(uri "${KIPRJMOD}/lib/S4B-XH-SM4-TB_LF__SN_/KiCad/S4B-XH-SM4-TB_LF__SN_.lib")(options "")(descr ""))
   (lib (name "MAX98357AETE_")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX98357AETE_/MAX98357AETE_.kicad_sym")(options "")(descr ""))
+  (lib (name "FPC-40P-Omron-XF2M-4015-1A")(type "Legacy")(uri "${KIPRJMOD}/lib/FPC-40P-Omron-XF2M-4015-1A/FPC-40P-Omron-XF2M-4015-1A.lib")(options "")(descr ""))
 )

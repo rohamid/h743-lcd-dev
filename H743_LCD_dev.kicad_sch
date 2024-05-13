@@ -574,6 +574,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 52.07) (xy 104.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bff9bf-13e4-46fd-b2e8-9bd783ff7aae")
+	)
+	(wire
+		(pts
 			(xy 87.63 44.45) (xy 104.14 44.45)
 		)
 		(stroke
@@ -1007,6 +1017,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04bf4ab0-06c7-41e2-b490-849f219c6c97")
 		)
@@ -1140,6 +1159,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfddb428-0741-48b1-8848-f6112b5111ea")
 		)
@@ -1207,6 +1235,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2208dcc-2672-48e5-ae81-fe513026face")
 		)
@@ -1266,6 +1303,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 147.32 160.02 0)
 			(effects
 				(font
@@ -1756,6 +1802,16 @@
 			)
 			(uuid "36094384-55ca-49a7-b989-be40063117d3")
 		)
+		(pin "LCD_BLK" output
+			(at 104.14 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd93e37f-085d-4268-9655-434ccc5b5368")
+		)
 		(instances
 			(project "H743_LCD_dev"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
@@ -2021,6 +2077,16 @@
 				(justify right)
 			)
 			(uuid "f89b03ce-0a53-4bec-8e6c-5cbbabb3ee72")
+		)
+		(pin "LCD_BLK" input
+			(at 87.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92a63100-d634-4353-8196-8a8adc84a4d8")
 		)
 		(instances
 			(project "H743_LCD_dev"

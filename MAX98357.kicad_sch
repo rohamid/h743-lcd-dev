@@ -1511,6 +1511,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a8720df-3199-4500-899e-f02f9101931e")
 		)
@@ -1573,6 +1582,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 67.31 88.9 0)
 			(effects
 				(font
@@ -1922,6 +1940,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C910544"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "1dee34ca-4627-46dc-ba6f-6d0887ee27da")
 		)
@@ -2089,6 +2116,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de8a92a4-e13d-415a-acba-b4bc8e031069")
 		)
@@ -2151,6 +2187,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 177.8 77.47 0)
 			(effects
 				(font
@@ -2287,6 +2332,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 219.71 85.09 0)
 			(effects
 				(font

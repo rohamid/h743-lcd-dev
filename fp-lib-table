@@ -3,4 +3,6 @@
   (lib (name "SM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/SM04B-SRSS-TB_LF__SN_")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/lib/S4B-XH-SM4-TB_LF__SN_/KiCad")(options "")(descr ""))
   (lib (name "MAX98357AETE_")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX98357AETE_")(options "")(descr ""))
+  (lib (name "powered_by_st")(type "KiCad")(uri "${KIPRJMOD}/lib/logo/powered_by_st.pretty")(options "")(descr ""))
+  (lib (name "FPC-40P-Omron-XF2M-4015-1Apretty")(type "KiCad")(uri "${KIPRJMOD}/lib/FPC-40P-Omron-XF2M-4015-1A/FPC-40P-Omron-XF2M-4015-1Apretty")(options "")(descr ""))
 )
