@@ -254,6 +254,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06829e70-1d7b-4f1a-98c9-a7c28012db70")
+	)
+	(wire
+		(pts
 			(xy 87.63 120.65) (xy 104.14 120.65)
 		)
 		(stroke
@@ -571,6 +581,16 @@
 			(type default)
 		)
 		(uuid "8a327a76-efe0-44bb-9baf-9669e07b9d2a")
+	)
+	(wire
+		(pts
+			(xy 87.63 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8c794e-0d8c-472a-9e5e-346b124502df")
 	)
 	(wire
 		(pts
@@ -2064,6 +2084,26 @@
 			)
 			(uuid "fd93e37f-085d-4268-9655-434ccc5b5368")
 		)
+		(pin "USART1_TX" output
+			(at 104.14 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a68fb568-7749-4e65-b812-fa3f993f2df8")
+		)
+		(pin "USART1_RX" input
+			(at 104.14 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39449922-3f80-4fbf-b032-2fbf0026b41d")
+		)
 		(instances
 			(project "H743_LCD_dev"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
@@ -2745,6 +2785,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "USART_RX" input
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ee8f828-24f0-4e25-8f54-df10d09ac7df")
+		)
+		(pin "USART_TX" output
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b694f1d4-ea79-4b14-a522-f1dce667a019")
 		)
 		(instances
 			(project "H743_LCD_dev"
