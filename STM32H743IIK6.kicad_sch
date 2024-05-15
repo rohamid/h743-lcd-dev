@@ -8303,7 +8303,7 @@
 		(uuid "397591bb-c26e-4b1f-8fdf-859cc32d8ff6")
 	)
 	(junction
-		(at 401.32 241.3)
+		(at 401.32 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d0072c1-a7d5-487c-86c2-9f33ee046df5")
@@ -9504,7 +9504,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 241.3) (xy 391.16 241.3)
+			(xy 393.7 245.11) (xy 391.16 245.11)
 		)
 		(stroke
 			(width 0)
@@ -10404,7 +10404,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 241.3) (xy 391.16 237.49)
+			(xy 391.16 245.11) (xy 391.16 237.49)
 		)
 		(stroke
 			(width 0)
@@ -11194,6 +11194,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 237.49) (xy 398.78 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ca3e43-7874-4cc6-bd52-da3944b37af6")
+	)
+	(wire
+		(pts
 			(xy 158.75 29.21) (xy 158.75 27.94)
 		)
 		(stroke
@@ -11684,7 +11694,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 241.3) (xy 401.32 237.49)
+			(xy 401.32 237.49) (xy 401.32 245.11)
 		)
 		(stroke
 			(width 0)
@@ -11774,7 +11784,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 242.57) (xy 401.32 241.3)
+			(xy 401.32 246.38) (xy 401.32 245.11)
 		)
 		(stroke
 			(width 0)
@@ -12221,16 +12231,6 @@
 			(type default)
 		)
 		(uuid "a1c24df7-a224-4bda-a3ad-0113143e2870")
-	)
-	(wire
-		(pts
-			(xy 401.32 237.49) (xy 398.78 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1dc92bc-d559-49f0-a1be-bc599f60cac8")
 	)
 	(wire
 		(pts
@@ -12734,7 +12734,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 241.3) (xy 401.32 241.3)
+			(xy 398.78 245.11) (xy 401.32 245.11)
 		)
 		(stroke
 			(width 0)
@@ -14932,6 +14932,17 @@
 			(justify left bottom)
 		)
 		(uuid "47fa29d9-fb22-4612-8fde-4f2222354a5e")
+	)
+	(label "SHIELD"
+		(at 391.16 237.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48b2d99c-2681-485c-abed-5aa7144ce085")
 	)
 	(label "PC4"
 		(at 129.54 184.15 180)
@@ -27618,7 +27629,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 396.24 241.3 90)
+		(at 396.24 245.11 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27627,7 +27638,7 @@
 		(dnp no)
 		(uuid "dd9ab962-0a07-482a-a4df-c9cf6da722a2")
 		(property "Reference" "R13"
-			(at 394.208 246.634 90)
+			(at 394.208 250.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27635,7 +27646,7 @@
 			)
 		)
 		(property "Value" "1M/0805"
-			(at 394.208 244.094 90)
+			(at 394.208 247.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27643,7 +27654,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27652,7 +27663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27661,7 +27672,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27670,7 +27681,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C17514"
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27679,7 +27690,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27688,7 +27699,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27697,7 +27708,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27706,7 +27717,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27715,7 +27726,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27724,7 +27735,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27733,7 +27744,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 396.24 241.3 0)
+			(at 396.24 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28806,7 +28817,7 @@
 	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 401.32 242.57 0)
+		(at 401.32 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28815,7 +28826,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4f3b663-0fde-4da8-9ac4-a2a029db8dc7")
 		(property "Reference" "#PWR054"
-			(at 401.32 248.92 0)
+			(at 401.32 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28824,7 +28835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 401.32 247.65 0)
+			(at 401.32 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28832,7 +28843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 401.32 242.57 0)
+			(at 401.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28841,7 +28852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 242.57 0)
+			(at 401.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28850,7 +28861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 401.32 242.57 0)
+			(at 401.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
