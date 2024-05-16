@@ -1342,6 +1342,16 @@
 		)
 		(uuid "e811de28-5992-496a-af21-9be60ca227af")
 	)
+	(text "gain=15"
+		(exclude_from_sim no)
+		(at 79.502 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0147aef-c370-4fd8-97ba-0bec4bd9dd92")
+	)
 	(label "SPK+"
 		(at 171.45 87.63 180)
 		(fields_autoplaced yes)
@@ -1475,7 +1485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NC"
+		(property "Value" "100K"
 			(at 69.85 97.7899 0)
 			(effects
 				(font
@@ -1511,7 +1521,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C25741"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -1603,9 +1613,9 @@
 		(at 67.31 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5af2ee9a-46ce-4bfd-9bbb-cddd3f166a4b")
 		(property "Reference" "R15"

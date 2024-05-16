@@ -17,5 +17,5 @@
 
 (rule "target length and skew"
       (condition "A.NetClass == 'NOR_FLASH'")
-      (constraint length (min 30.8mm) (opt 31mm) (max 31.2mm))
+      (constraint length (min 33.8mm) (opt 34mm) (max 34.2mm))
       (constraint skew (max 0.1mm)))

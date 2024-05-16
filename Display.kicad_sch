@@ -4458,6 +4458,16 @@
 		)
 		(uuid "67c92afb-35fe-465f-9a2f-d1b20cb1f781")
 	)
+	(text "Verified"
+		(exclude_from_sim no)
+		(at 224.536 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a249652-1678-43ca-a5e5-d7ce1eb1ca1f")
+	)
 	(text "Please check Adafruit Qualia ESP32-S3 for TTL RGB-666 Displays"
 		(exclude_from_sim no)
 		(at 49.784 154.94 0)
@@ -8510,7 +8520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR5012S"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -8537,7 +8547,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C844992"
+		(property "JLCPCB Part #" "C2847472"
 			(at 72.39 102.87 0)
 			(effects
 				(font
